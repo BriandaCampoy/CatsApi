@@ -1,0 +1,15 @@
+img{
+  width:300px;
+  height:300px;
+}
+article{
+  display: flex;
+  flex-direction: column;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
