@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="./main.js"></script>
-  <link rel="stylesheet" href="./style.css"/>
-  <title>El gato Random</title>
-</head>
-<body>
-  <h1>Gatos</h1>
-  <span id="error"></span>
-  <section>
-    <h2>Sube la foto de tu michi</h2>
-    
-    <form action="" id="uploadingform">
-      <input type="file" id="file" name="file">
-      <button type="button" id="btnForm">Subir</button>
-    </form>
-    
-  </section>
-  <button id="btnGato">Otro gato</button>
-  <br/>
-  <h2>Gatitos aleatorios</h2>
-  <section id="randomMichis">
-  </section>
-  <h2>Gatitos favoritos</h2>
-  <section id="favoritesMichis">
-    <!-- <article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>El gato Random</title>
+  </head>
+  <body>
+    <div class="page--container">
+      <h1>Gatos</h1>
+      <span id="error"></span>
+      <section class="section__inputMichi">
+        <h2>Sube la foto de tu michi</h2>
+
+        <form action="" id="uploadingform">
+          <input type="file" id="file" name="file" />
+          <button type="button" id="btnForm">Subir</button>
+        </form>
+        <button type="button" id="btnGato">Cambiar michis</button>
+      </section>
+      <br />
+      <h2>Gatitos aleatorios</h2>
+      <section id="randomMichis"></section>
+      <h2>Gatitos favoritos</h2>
+      <section id="favoritesMichis">
+        <!-- <article>
       <img alt="El gato favorito" id="imgGatoFavorito" width="500px">
       <button>Sacar michi de favoritos</button>
     </article> -->
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-</body>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
 </html>
